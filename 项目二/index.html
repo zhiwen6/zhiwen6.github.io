@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+
+			body {
+				background: #0c1248;
+			}
+
+			.clearfloat:after {
+				display: block;
+				clear: both;
+				content: "";
+				visibility: hidden;
+				height: 0
+			}
+
+			.clearfloat {
+				zoom: 1
+			}
+
+			.banner {
+				max-width: 100%;
+				height: auto;
+			}
+
+			.biao1 {
+				width: 30%;
+				height: auto;
+				margin-left: 170px;
+				margin-top: 100px;
+			}
+
+			.he1 {
+				width: 180px;
+				font-size: 18px;
+				color: white;
+				background: #0A6EF2;
+				border-radius: 25px;
+				line-height: 2.5;
+				text-align: center;
+				float: left;
+				margin-top: 40px;
+			}
+
+			.he2 {
+				width: 180px;
+				font-size: 18px;
+				color: white;
+				border: 1px solid #0A6EF2;
+				border-radius: 25px;
+				line-height: 2.5;
+				margin-left: 35px;
+				text-align: center;
+				float: left;
+				margin-top: 40px;
+			}
+
+			.un ul li:hover {
+				color: #0A6EF2;
+				border-bottom: 2px solid #0A6EF2;
+			}
+
+			.content {
+				width: 100%;
+				height: auto;
+				margin-top: 300px;
+			}
+
+			.cont2 {
+				width: 80%;
+				background: #0A6EF2;
+				margin-left: 10%;
+			}
+			.cont4 {
+				width: 100%;
+				background: #0A6EF2;
+				margin-top: 70px;
+				margin-left: 12%;
+			}
+			.cont3{
+				margin-top: 250px;
+			}
+
+			.futu {
+				width: 40%;
+				height: 500px;
+				background: url(1.png) no-repeat;
+				background-size: 100% 100%;
+				margin-left: 10%;
+				float: left;
+				border-radius: 15px;
+			}
+
+			.times {
+				margin-top: 300px;
+				width: 100%;
+				height: auto;
+			}
+			.timess{
+				width: 35%;
+				height: 500px;
+				margin-left: 50px;
+				float: left;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<div class="banner clearfloat">
+				<img style="width: 186.19px; position: absolute; left: 200px;top: 15px;" src="https://5d3969e45410c.t73.qifeiye.com/qfy-content/uploads/2019/07/6c01fb75c2ce26ede8ba05ce70a3057f.png"
+				 alt="">
+				<div style="margin-left: 700px;" class="un">
+					<li>
+						<lee im_pic="首页"></lee>
+					</li>
+					<li>
+						<lee im_pic="使用流程"></lee>
+					</li>
+					<li>
+						<lee im_pic="全球服务"></lee>
+					</li>
+					<li>
+						<lee im_pic="关于我们"></lee>
+					</li>
+					<li>
+						<lee im_pic="专家团队"></lee>
+					</li>
+					<li>
+						<lee im_pic="联系我们"></lee>
+					</li>
+					<li>
+						<lee im_pic="合作伙伴"></lee>
+					</li>
+					<li>
+				</div>
+			</div>
+			<div class="biao1 clearfloat">
+				<h2 style=" color: white;">
+					<lee im_biao="践行惠普金融"></lee>
+				</h2>
+				<h2 style=" color: white;">
+					<lee im_biao="助力美好生活"></lee>
+				</h2><br><br><br><br>
+				<sapn style=" color: white; line-height:30px;">
+					<lee im_words="我们的网站构建器，将传统的编码工作转化为直观的拖拽操作和文字录入。在这里，您仅需花上10分钟便可以完成一个H5响应式网站，您会发现完全不需要编写一行代码，这就是起飞页自助建站的神奇之处。"></lee>
+				</sapn>
+				<div class="he1 clearfloat">
+					<lee im_contact="联系我们  →"></lee>
+				</div>
+				<div class="he2 clearfloat">
+					<lee im_contact="点我咨询  →"></lee>
+				</div>
+				<img style="width:615px;height: 519px; position: absolute; right: 200px; top: 100px;" src="https://ccdn.goodq.top/caches/76b523e47b518e3280b3a453638be094/aHR0cHM6Ly81ZDM5NjllNDU0MTBjLnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTkvMDcvM2Q1MjJlZDZlYTZiM2I2YWEwYmVjNGM3YTBkMjcxNzIucG5n.png">
+			</div>
+
+			<div class="content clearfloat">
+				<div class="cont">
+					<h2 style="color: white;text-align: center;">
+						<lta it_process="使用流程"></lta>
+					</h2>
+					<span style="text-align: center; color: white; line-height: 2;">
+						<lta it_construct="我们的网站构建器，将传统的编码工作转化为直观的拖拽操作和文字录入。在这里，您仅需花上"></lta>
+					</span>
+					<span style="text-align: center; color: white; line-height: 2;">
+						<lta it_construct="10分钟便可以完成一个H5响应式网站。"></lta>
+					</span>
+				</div>
+				<div class="cont2">
+					<div v-for="i in arr" style="float: left; width: 28%; margin-left: 50px;">
+						<img :src="i.imgs" alt="" style="margin-left:125px; margin-top: 50px;">
+						<p style="margin-left:125px; margin-top: 50px; color: white;font-size: 20px;">{{i.titles}}</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="times clearfloat">
+				<div class="futu">
+					<h2 style="color: white; text-align: center;padding-top: 35px;">
+						<lga ig_future="近期货币"></lga>
+					</h2>
+					<p style="color: white; text-align: center;padding-top: 10px;padding-bottom: 20px;">购买进度</p>
+					<div id="time" style="text-align: center; font-size: 28px;color: white; padding-top: 40px;"></div>
+					<div style="width: 80%; background-color: #ffffff;border-radius: 10px;padding: 3px; margin-left: 55px;margin-top: 70px;">
+						<div style=" background-color: #0768ee;width: 80%; height: 30px;border-radius: 10px;text-align:center;line-height:30px;">
+							<span style="color:#fff;font-size:14px;">购买进度  80 %</span>
+						</div>
+					</div>
+						<div style="margin-left: 80px; width: 200px;height: 40px;background: gold; border-radius: 15px;text-align: center;line-height: 40px; color: white;background: #0A6EF2;margin-left: 200px;margin-top: 100px;">
+							<lee im_contact="联系我们  →"></lee>
+						</div>
+				</div>
+					<div class="timess">
+					<h2 style="font-family: 微软雅黑; color: rgb(255, 255, 255);font-size: 32px;line-height: 4;">最值得信赖的平台</h2>
+					<span style="color: #FFFFFF;">移动互联网的稳定快速发展带动了货币行业的迅速崛起，在如此庞大的货币海洋中，哪些是您所需要的货币呢？</span>
+					<p style="color: #0A6EF2; line-height: 6;">√<span style="color: white; margin-left: 15px;">享受专属优惠券</span></p>
+					<p style="color: #0A6EF2; line-height: 4;">√<span style="color: white; margin-left: 15px;">享受专属优惠券</span></p>
+					<p style="color: #0A6EF2; line-height: 4;">√<span style="color: white; margin-left: 15px;">享受专属优惠券</span></p>
+					</div>
+			</div>
+				<div class="cont3">
+					<div>
+						<h2 style="color: white;text-align: center;">
+							<lta it_process="全球服务"></lta>
+						</h2>
+						<span style="text-align: center; color: white; line-height: 2;">
+							<lta it_construct="我们的网站构建器，将传统的编码工作转化为直观的拖拽操作和文字录入。在这里，您仅需花上"></lta>
+						</span>
+						<span style="text-align: center; color: white; line-height: 2;">
+							<lta it_construct="10分钟便可以完成一个H5响应式网站。"></lta>
+						</span>
+					</div>
+					<div style="width: 100%;">
+						<img src="image/02.png" alt="" style="margin-left:220px ;">
+					</div>
+				</div>
+				
+				<div style="100% height: auto; margin-top:180px;">
+					<div>
+						<h2 style="color: white;text-align: center;">
+							<lta it_process="关于我们"></lta>
+						</h2>
+						<span style="text-align: center; color: white; line-height: 2;">
+							<lta it_construct="我们的网站构建器，将传统的编码工作转化为直观的拖拽操作和文字录入。在这里，您仅需花上"></lta>
+						</span>
+						<span style="text-align: center; color: white; line-height: 2;">
+							<lta it_construct="10分钟便可以完成一个H5响应式网站。"></lta>
+						</span>
+					</div>
+					<div class="cont4">
+						<div v-for="i in arr1" style="float: left; width: 35%; margin-left: 40px; background: url(image/03.png) no-repeat; border-radius: 15px;">
+							<img :src="i.imgs" alt="" style="margin-left:50px; margin-top: 50px;">
+							<p style="margin-left:50px; margin-top: 50px; color: white;font-size: 20px;">{{i.titls}}</p>
+							<ul style="color: white; font-size: 16px; margin-top: 20px;">
+								<li style="line-height: 2;margin-left: 50px;">{{i.pgb}}</li>
+								<li style="line-height: 2;margin-left: 50px;">{{i.pdb}}</li>
+								<li style="line-height: 2;margin-left: 50px;">{{i.pab}}</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<template id="no1">
+			<div>
+				<ul style="float: left;margin-left: 55px; line-height: 85px; color: white;">
+					<li>{{title}}</li>
+				</ul>
+				<div>
+					<h2>{{biao}}</h2>
+					<span>{{words}}</span>
+					<div>{{contact}}</div>
+				</div>
+			</div>
+		</template>
+		<template id="no2">
+			<div>
+				<div>
+					<div>
+						<h2>{{process}}</h2>
+						<span>{{construct}}</span>
+					</div>
+				</div>
+			</div>
+		</template>
+		<template id="no3">
+			<div>
+				<div>
+					<h2>{{future}}</h2>
+				</div>
+			</div>
+		</template>
+		<script src="vue.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var bus = new Vue()
+			Vue.component('lee', {
+				template: "#no1",
+				props: ['im_pic', 'im_biao', 'im_words', 'im_contact'],
+				data() {
+					return {
+						title: this.im_pic,
+						biao: this.im_biao,
+						words: this.im_words,
+						contact: this.im_contact,
+					}
+				},
+			})
+			Vue.component('lta', {
+				template: "#no2",
+				props: ['it_process', 'it_construct'],
+				data() {
+					return {
+						process: this.it_process,
+						construct: this.it_construct,
+					}
+				},
+			})
+			Vue.component('lga', {
+				template: "#no3",
+				props: ['ig_future'],
+				data() {
+					return {
+						future: this.ig_future,
+						progress: this.ig_future,
+					}
+				},
+			})
+			new Vue({
+				el: "#box",
+				data: {
+					arr: [{
+							imgs: 'https://ccdn.goodq.top/caches/76b523e47b518e3280b3a453638be094/aHR0cHM6Ly81ZDM5NjllNDU0MTBjLnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTkvMDcvOWNlZjc3MThhM2UzYjUwZWMwNmFlMzY2MTM2YzI2MTYucG5n.png',
+							titles: '安全保障'
+						},
+						{
+							imgs: 'https://ccdn.goodq.top/caches/76b523e47b518e3280b3a453638be094/aHR0cHM6Ly81ZDM5NjllNDU0MTBjLnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTkvMDcvMjRkOWZhNDMyOGRiNTYxMGU0MDg5MmZiYWY0MWEzZTUucG5n.png',
+							titles: '创建账户'
+						},
+						{
+							imgs: 'https://ccdn.goodq.top/caches/76b523e47b518e3280b3a453638be094/aHR0cHM6Ly81ZDM5NjllNDU0MTBjLnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTkvMDcvNDg1Zjk2YWE4MmFhMzdhODgzYWM3MWVjMDgxMDA5YWQucG5n.png',
+							titles: '绑定付款'
+						},
+					],
+					arr1: [{
+							imgs: 'https://ccdn.goodq.top/caches/76b523e47b518e3280b3a453638be094/aHR0cHM6Ly81ZDM5NjllNDU0MTBjLnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTkvMDcvNjJjMzNhYTUyN2NjMTIyMTFkNmM0ZjI3ZWE4YTkyZDQtZTE1NjM5NTAwMTc0MzgucG5n.png',
+							titls: '税收居民身份须知！',
+							pgb:'我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制 作和维护成为一件轻松惬意的事',
+							pdb:'当今最领先的响应式自助建站平台',
+							pab:'我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事',
+						},
+						{
+							imgs: 'https://ccdn.goodq.top/caches/76b523e47b518e3280b3a453638be094/aHR0cHM6Ly81ZDM5NjllNDU0MTBjLnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTkvMDcvZDhhYzg0YWE1ZTM2Y2RjMmFkYjdmMmNiNWY1YzI3ZWEucG5n.png',
+							titls: '移动支付安全小知识！',
+							pgb:'我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制 作和维护成为一件轻松惬意的事',
+							pdb:'当今最领先的响应式自助建站平台',
+							pab:'我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事',
+						},
+					],
+				},
+			})
+			window.onload = function() {
+			
+				//定时器每秒调用一次fnDate()
+				setInterval(function() {
+					fnDate();
+				}, 1000);
+			}
+			
+			//js 获取当前时间
+			function fnDate() {
+				var oDiv = document.getElementById("time");
+				var date = new Date();
+				var year = date.getFullYear(); //当前年份
+				var month = date.getMonth(); //当前月份
+				var data = date.getDate(); //天
+				var hours = date.getHours(); //小时
+				var minute = date.getMinutes(); //分
+				var second = date.getSeconds(); //秒
+				var time = '<p><span>00</span>天<span>' + fnW(hours) + '</span>时<span>' + fnW(minute) + '</span>分钟<span>' + fnW(
+					second) + '</span>秒</p >';
+				oDiv.innerHTML = time;
+			}
+			//补位 当某个字段不是两位数时补0
+			function fnW(str) {
+				var num;
+				str > 10 ? num = str : num = "0" + str;
+				return num;
+			}
+		</script>
+	</body>
+</html>
