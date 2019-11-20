@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="swiper.css"/>
+		<script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&ak=DmvaTbVhDI5FzcLmG8zcZQdPllicdMXQ"></script>
+	</head>
+	<body>
+		<div id="box">
+			<app></app>
+			<npp></npp>
+		</div>
+	</body>
+	<script src="dist/main.js"></script>
+	<script src="swiper.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		 var swiper = new Swiper('.swiper-container', {
+		      direction: 'vertical',
+			  autoplay:true,
+			  loop:true,
+		      pagination: {
+		        el: '.swiper-pagination',
+		        clickable: true,
+		      },
+		    });
+	</script>
+	
+</html>

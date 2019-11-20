@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.clearfix:after{
+		content: ""; 
+		display: block; 
+		height: 0;
+		visibility: hidden; 
+		clear: both;
+	}
+	.clearfix {
+		*zoom:1;
+	}
+#box{
+	position: relative;
+}
+.nav{
+	width: 100%;
+	height: 736px;
+	background: url(image/banner.png);
+}
+.log{
+	width: 192px;
+	height: 49px;
+	padding-top: 10px;
+	padding-left: 49px;
+	float: left;
+}
+.log img{
+	width: 192px;
+	height: 49px;
+}
+.guide{
+	width: 500px;
+	margin-top: 20px;
+	margin-left: 700px;
+	line-height: 2;
+	font-size: 16px;
+	float: left;	
+}
+.guide a{
+	margin-left: 60px;
+	text-decoration: none;
+	color: white;
+}
+.tan{
+	width: 590px;
+	font-size: 70px;
+	color: white;
+	margin-left: 200px;
+	padding-top: 150px;
+}
+.zhe{
+	width: 590px;
+	color: white;
+	font-size: 18px;
+	margin-top: 150px;
+	margin-left: 200px;
+}
+.you{
+	width: 500px;
+	min-height: 500px;
+	position: absolute;
+	top: 150px;
+	right: 150px;
+}
+.swiper-slide img{
+	width: 100%;
+	height: auto;
+}
+.guan{
+	width: 100%;
+	height: 480px;
+	background: url(image/banner-2.png);
+	background-size: 100% 100%;
+}
+.nav-top{
+	position: fixed;
+	top: 0;
+}
+.pd{
+	width: 23%;
+	min-height: 490px;
+	margin-left: 25px;
+	float: left;
+}
+.pf{
+	width: 23%;
+	margin-left: 25px;
+	float: left;
+}
+.swiper-slide img{
+	width: 100%;
+	height: auto;
+}
+/* <div class="guide">
+						<a href="#/">首页</a>
+						<a href="#/no2">关于</a>
+						<a href="#/no3">路线</a>
+						<a href="#/no4">攻略</a>
+						<a href="#/no5">联系</a>
+					</div>
+					<div class="cont">
+						<router-view></router-view>
+					</div>	 */
